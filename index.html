@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delhi Air Quality Awareness & Action Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Delhi Air Quality Awareness & Action Platform</h1>
+
+<div id="map"></div>
+
+<div class="legend">
+    <strong>AQI Levels</strong><br>
+    <div><span class="dot severe"></span>Severe</div>
+    <div><span class="dot poor"></span>Poor</div>
+    <div><span class="dot moderate"></span>Moderate</div>
+    <div><span class="dot good"></span>Good</div>
+</div>
+
+<script src="script.js"></script>
+
+<!-- 🔴 REPLACE YOUR_REAL_API_KEY WITH YOUR ACTUAL KEY -->
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2n0Yr55R605ZBU6jDm-mrHMq-XxFmX4g&callback=initMap"
+    async defer>
+</script>
+
+</body>
+</html>

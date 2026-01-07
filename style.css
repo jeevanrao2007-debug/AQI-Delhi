@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+    background-color: #020617;
+}
+
+#map {
+    width: 100%;
+    height: 85vh;
+}
+
+.legend {
+    position: absolute;
+    left: 10px;
+    bottom: 25px;
+    background: #020617;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.severe {
+    background: red;
+}
+
+.poor {
+    background: orange;
+}
+
+.moderate {
+    background: yellow;
+}
+
+.good {
+    background: green;
+}
